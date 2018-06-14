@@ -8,3 +8,13 @@ C:\Users\Admin\source\repos\Task_4\Task_4\obj\Debug\Task_4.csproj.GenerateResour
 C:\Users\Admin\source\repos\Task_4\Task_4\obj\Debug\Task_4.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\Task_4\Task_4\obj\Debug\Task_4.exe
 C:\Users\Admin\source\repos\Task_4\Task_4\obj\Debug\Task_4.pdb
+C:\Users\ishme\source\repos\Task_4\obj\Debug\Task_4.csprojAssemblyReference.cache
+C:\Users\ishme\source\repos\Task_4\obj\Debug\Task_4.MainForm.resources
+C:\Users\ishme\source\repos\Task_4\obj\Debug\Task_4.Properties.Resources.resources
+C:\Users\ishme\source\repos\Task_4\obj\Debug\Task_4.csproj.GenerateResource.cache
+C:\Users\ishme\source\repos\Task_4\obj\Debug\Task_4.csproj.CoreCompileInputs.cache
+C:\Users\ishme\source\repos\Task_4\obj\Debug\Task_4.exe
+C:\Users\ishme\source\repos\Task_4\obj\Debug\Task_4.pdb
+C:\Users\ishme\source\repos\Task_4\bin\Debug\Task_4.exe.config
+C:\Users\ishme\source\repos\Task_4\bin\Debug\Task_4.exe
+C:\Users\ishme\source\repos\Task_4\bin\Debug\Task_4.pdb

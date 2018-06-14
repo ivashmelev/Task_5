@@ -14,11 +14,13 @@ namespace Task_4
 {
     public partial class MainForm : Form
     {
+        ServiceController[] services;
+
         public MainForm()
         {
             InitializeComponent();
-            ServiceController[] services;
             services = ServiceController.GetServices();
+            
             for (int i = 0; i < services.Length; i++)
             {
                 var count = services.Length;
@@ -32,15 +34,18 @@ namespace Task_4
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CheckedListBox check = (CheckedListBox)sender;
-            if (check.GetItemCheckState)
-            {
-                MessageBox.Show("True");
-            }
-            else
-            {
-                MessageBox.Show("False");
-            }
+            CheckedListBox ch = sender as CheckedListBox;
+            
+            int id = ch.SelectedIndex;
+                if(checkedListBox1.GetItemChecked(id))
+                {
+                    services[id].Start();
+                }
+                else
+                {
+                    services[id].Stop();
+                }
+            
         }
     } 
 }
